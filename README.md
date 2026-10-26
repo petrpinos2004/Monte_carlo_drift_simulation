@@ -15,5 +15,7 @@ By default this repository contains .txt results from 20 simulation runs from wh
 E/D     v_D
 -----------------------
 0.1     1530 +- 20
+-----------------------
 1       5200 +- 30
+-----------------------
 10      16800 +- 200 
