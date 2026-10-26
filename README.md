@@ -12,10 +12,11 @@ To clear ouptputs use 'clean_up.sh' or manually switch export path.
 
 By default this repository contains .txt results from 20 simulation runs from which we got
 
-E/D     v_D
+E/D   \t  v_D
 -----------------------
-0.1     1530 +- 20
+0.1   \t  1530 +- 20
 -----------------------
-1       5200 +- 30
+1    \t   5200 +- 30
 -----------------------
-10      16800 +- 200 
+10   \t   16800 +- 200 
+-----------------------
