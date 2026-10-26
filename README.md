@@ -10,3 +10,10 @@ Each simulation is by default run ten times with results from each run being sav
 Rerunning the simulation does not clear previous results, new results are simply added after old ones.
 To clear ouptputs use 'clean_up.sh' or manually switch export path.
 
+By default this repository contains .txt results from 20 simulation runs from which we got
+
+E/D     v_D
+-----------------------
+0.1     1530 +- 20
+1       5200 +- 30
+10      16800 +- 200 

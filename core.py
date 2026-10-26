@@ -88,13 +88,13 @@ class Simulation:
 
         print(f'Simulation {self.name}_{j} finished with drift velocity {self.r[2]/self.time}')
 
-        with open(f'{self.name}2.txt', "a") as f:
+        with open(f'{self.name}.txt', "a") as f:
             f.write(str(self.r[2]/self.time))
             f.write('\n')
 
     def sum_up(self):
         
-        data = np.loadtxt(f'{self.name}2.txt')
+        data = np.loadtxt(f'{self.name}.txt')
         n = len(data)
 
         print('--------------------------------------------------------------------')
