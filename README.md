@@ -1,2 +1,12 @@
 # Monte_carlo_drift_simulation
-This is a school related project on Monte Carlo simulation of electron drifting in homogeneous electric field
+This is a school related project on Monte Carlo simulation of electron drifting in homogeneous electric field.
+
+The program should be run from the project root directory using provided 'run_all.sh' shell script. 
+This runs all three simulations (E/N = 10, E/N = 1, E/N = 0.1) in parallel. Simulations parameter specification is
+handled using container inside Parameters class in respective python files (10.py, 1.py, 0p1.py). Each of these are 
+initiated as child process of Simulation class (core.py) where the computional code is located.
+
+Each simulation is by default run ten times with results from each run being saved in corresponding .txt file.
+Rerunning the simulation does not clear previous results, new results are simply added after old ones.
+To clear ouptputs use 'clean_up.sh' or manually switch export path.
+
