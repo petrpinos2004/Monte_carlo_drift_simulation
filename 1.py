@@ -15,7 +15,7 @@ class Parameters(core.Simulation):
             'm_e' : 9.1e-31,
             'e' : 1.602e-19,
             'T' : 300,
-            'N' : 1e7,
+            'N' : 1e8,
             'warmup_N' : 1e5,
             'kb' : 1.38e-23,
             'position' : 1
